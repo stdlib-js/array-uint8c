@@ -44,7 +44,7 @@ tape( 'if an environment supports `Uint8ClampedArray`, the export is an alias fo
 	var Foo;
 
 	Foo = proxyquire( './../lib', {
-		'@stdlib/assert/has-uint8clampedarray-support': isTrue,
+		'@stdlib/assert-has-uint8clampedarray-support': isTrue,
 		'./uint8clampedarray.js': Mock
 	});
 	t.strictEqual( Foo, Mock, 'returns builtin' );
@@ -68,7 +68,7 @@ tape( 'if an environment does not support `Uint8ClampedArray`, the export is a p
 	var Foo;
 
 	Foo = proxyquire( './../lib', {
-		'@stdlib/assert/has-uint8clampedarray-support': isFalse
+		'@stdlib/assert-has-uint8clampedarray-support': isFalse
 	});
 
 	t.strictEqual( Foo, polyfill, 'returns polyfill' );

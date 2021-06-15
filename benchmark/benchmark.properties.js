@@ -22,7 +22,7 @@
 
 var bench = require( '@stdlib/bench' );
 var isArrayBuffer = require( '@stdlib/assert-is-arraybuffer' );
-var isNonNegativeInteger = require( '@stdlib/assert-is-nonnegative-integer' ).isPrimitive;
+var isNonNegativeInteger = require( '@stdlib/assert-is-nonnegative-integer' ).isPrimitive;' ).isPrimitive;
 var pkg = require( './../package.json' ).name;
 var Uint8ClampedArray = require( './../lib' );
 
