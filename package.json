@@ -1,0 +1,41 @@
+{
+  "name": "@stdlib/array-uint8c",
+  "version": "0.0.0",
+  "description": "Uint8ClampedArray.",
+  "license": "Apache-2.0",
+  "main": "./bundle.js",
+  "homepage": "https://stdlib.io",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/stdlib-js/array-uint8c.git"
+  },
+  "bugs": {
+    "url": "https://github.com/stdlib-js/stdlib/issues"
+  },
+  "keywords": [
+    "stdlib",
+    "stdtypes",
+    "types",
+    "data",
+    "structure",
+    "array",
+    "typed",
+    "typed array",
+    "typed-array",
+    "uint8clampedarray",
+    "uint8clamped",
+    "clamped",
+    "uint8",
+    "uint8_t",
+    "integer",
+    "int",
+    "uint",
+    "unsigned",
+    "byte",
+    "octet"
+  ],
+  "funding": {
+    "type": "patreon",
+    "url": "https://www.patreon.com/athan"
+  }
+}
