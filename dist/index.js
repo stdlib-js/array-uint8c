@@ -1,7 +1,8 @@
-/*
+"use strict";var t=function(p,r){return function(){return r||p((r={exports:{}}).exports,r),r.exports}};var o=t(function(y,i){"use strict";var n=typeof Uint8ClampedArray=="function"?Uint8ClampedArray:void 0;i.exports=n});var l=t(function(d,a){"use strict";function s(){throw new Error("not implemented")}a.exports=s});var u=require("@stdlib/assert-has-uint8clampedarray-support"),c=o(),f=l(),e;u()?e=c:e=f;module.exports=e;
+/**
 * @license Apache-2.0
 *
-* Copyright (c) 2021 The Stdlib Authors.
+* Copyright (c) 2018 The Stdlib Authors.
 *
 * Licensed under the Apache License, Version 2.0 (the "License");
 * you may not use this file except in compliance with the License.
@@ -15,12 +16,4 @@
 * See the License for the specific language governing permissions and
 * limitations under the License.
 */
-
-// TypeScript Version: 4.1
-
-// EXPORTS //
-
-/**
-* Typed array constructor which returns a typed array representing an array of 8-bit unsigned integers in the platform byte order clamped to 0-255.
-*/
-export = Uint8ClampedArray;
+//# sourceMappingURL=index.js.map
