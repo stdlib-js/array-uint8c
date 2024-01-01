@@ -20,7 +20,7 @@
 
 // MODULES //
 
-var bench = require( '@stdlib/bench' );
+var bench = require( '@stdlib/bench-harness' );
 var isUint8ClampedArray = require( '@stdlib/assert-is-uint8clampedarray' );
 var pkg = require( './../package.json' ).name;
 var ctor = require( './../lib' );
