@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import Uint8ClampedArray from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-uint8c@esm/index.mjs';
+import Uint8ClampedArray from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-uint8c@v0.2.3-esm/index.mjs';
 ```
 
 #### Uint8ClampedArray()
@@ -1414,7 +1414,7 @@ var bool = it.next().done;
 
 import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@esm/index.mjs';
 import round from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-round@esm/index.mjs';
-import ctor from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-uint8c@esm/index.mjs';
+import ctor from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-uint8c@v0.2.3-esm/index.mjs';
 
 var arr;
 var i;
