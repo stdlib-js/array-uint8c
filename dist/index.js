@@ -1,4 +1,4 @@
-"use strict";var t=function(p,r){return function(){return r||p((r={exports:{}}).exports,r),r.exports}};var o=t(function(y,i){"use strict";var n=typeof Uint8ClampedArray=="function"?Uint8ClampedArray:void 0;i.exports=n});var l=t(function(d,a){"use strict";function s(){throw new Error("not implemented")}a.exports=s});var u=require("@stdlib/assert-has-uint8clampedarray-support"),c=o(),f=l(),e;u()?e=c:e=f;module.exports=e;
+"use strict";var t=function(p,r){return function(){try{return r||p((r={exports:{}}).exports,r),r.exports}catch(n){throw r=0,n}}};var o=t(function(d,i){"use strict";var s=typeof Uint8ClampedArray=="function"?Uint8ClampedArray:void 0;i.exports=s});var l=t(function(m,a){"use strict";function u(){throw new Error("not implemented")}a.exports=u});var c=require("@stdlib/assert-has-uint8clampedarray-support"),f=o(),v=l(),e;c()?e=f:e=v;module.exports=e;
 /**
 * @license Apache-2.0
 *
